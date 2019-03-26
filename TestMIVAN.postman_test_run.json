@@ -1,0 +1,134 @@
+{
+	"id": "e7a72843-8310-4ff8-a4a9-1f5bac8caa77",
+	"name": "TestMIVAN",
+	"allTests": [],
+	"timestamp": "2019-03-26T20:55:20.573Z",
+	"collection_id": "dde68f8c-ca7e-46ac-977c-a242b4472e39",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "dde68f8c-ca7e-46ac-977c-a242b4472e39",
+		"name": "TestMIVAN",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"eebc0877-3906-4d76-98c9-f97eab372d52",
+			"49c30667-324d-4603-8e08-7aaeaa3f8cd5",
+			"3bdca57e-2c43-4662-82c2-f94f7958f7f1",
+			"4728bb24-9c88-4ee4-9ecd-9f3bd89cb628",
+			"21fb86b1-d474-43bb-94a7-871cb135c08f"
+		],
+		"folders_order": [],
+		"owner": "7061086",
+		"favorite": false,
+		"isFavorite": true,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "META",
+			"value": "https://meta.stackexchange.com",
+			"description": "",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "FirstGET",
+			"id": "eebc0877-3906-4d76-98c9-f97eab372d52",
+			"url": "https://stackexchange.com/topbar/get-unread-counts?_=1553624458492",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"status code is 200 ": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"status code is 200 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"217"
+			],
+			"allTests": [
+				{
+					"status code is 200 ": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true
+				}
+			],
+			"time": "217",
+			"totalRequestTime": "217",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 3,
+	"totalFail": 0,
+	"totalTime": 217,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "FirstGET",
+			"id": "eebc0877-3906-4d76-98c9-f97eab372d52",
+			"url": "https://stackexchange.com/topbar/get-unread-counts?_=1553624458492",
+			"time": "2019-03-26T20:55:20.573Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"status code is 200 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Question",
+			"id": "49c30667-324d-4603-8e08-7aaeaa3f8cd5",
+			"url": "{{meta}}/tags/bug/prefs",
+			"time": "2019-03-26T20:55:20.573Z",
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
